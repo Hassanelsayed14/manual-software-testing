@@ -17,18 +17,17 @@ This repository documents the practical projects I completed during my Manual So
 
 ---
 
-## 🗂️ Projects
-
 | # | Project | Domain | Focus | Status |
 |---|---------|--------|-------|--------|
-| 01 | Agileway | Demo web app | Test scenarios & cases | 🔄 In Progress |
-| 02 | To Do List | Web app | Functional testing | ⏳ Planned |
-| 03 | Sweet Shop | E-commerce | Functional & UI | ⏳ Planned |
-| 04 | Coffee Cart | Ordering app | Cart & checkout flows | ⏳ Planned |
-| 05 | Parking Cost Calculator | Calculator | Boundary value & equivalence partitioning | ⏳ Planned |
-| 06 | PrestaShop | E-commerce | End-to-end shopping flows | ⏳ Planned |
-| 07 | User Interface | UI / UX | UI & usability testing | ⏳ Planned |
-| 08 | HR Management System | Enterprise app | Role-based functional testing | ⏳ Planned |
+| 1 | Gazara | Web app | Test case writing project | 🔄 In Progress |
+| 2 | Agileway | Demo web app | Test scenarios & cases | ⏳ Planned |
+| 3 | To Do List | Web app | Functional testing | ⏳ Planned |
+| 4 | Sweet Shop | E-commerce | Functional & UI | ⏳ Planned |
+| 5 | Coffee Cart | Ordering app | Cart & checkout flows | ⏳ Planned |
+| 6 | Parking Cost Calculator | Calculator | Boundary value & equivalence partitioning | ⏳ Planned |
+| 7 | PrestaShop | E-commerce | End-to-end shopping flows | ⏳ Planned |
+| 8 | User Interface | UI / UX | UI & usability testing | ⏳ Planned |
+| 9 | HR Management System | Enterprise app | Role-based functional testing | ⏳ Planned |
 
 _I'm adding one project at a time. Each project gets its own link here once its folder is published._
 
@@ -93,4 +92,3 @@ I write about what I learn on DEV:
 ## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hassan%20Elsayed-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/hassan-elsayed-5a7098275)
-[![GitHub](https://img.shields.io/badge/GitHub-Hassanelsayed14-181717?style=for-the-badge&logo=github)](https://github.com/Hassanelsayed14)
