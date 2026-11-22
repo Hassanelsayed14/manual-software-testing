@@ -1,7 +1,7 @@
+Gazara  
 
-
-Gazara   
 Grocery store   
+
 Functional requirements   
 ---
 
