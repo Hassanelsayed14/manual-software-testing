@@ -1,66 +1,53 @@
 # Manual Software Testing Portfolio 🧪
 
-👋 **Hi, I'm Hassan Elsayed** — Cybersecurity student with a hands-on **Manual QA / Software Testing** background.
-This repository documents the practical projects I completed during my Manual Software Testing training: from analyzing requirements to writing test scenarios & test cases, executing them, and reporting defects.
+Hi, I'm **Hassan Elsayed**, a cybersecurity student with hands-on experience in manual QA and software testing. This repository contains the projects I completed during my Manual Software Testing training, from analyzing requirements to writing test scenarios and test cases, executing them, and reporting defects.
 
-> 🔐 I combine QA discipline with a security mindset — see my security work on my [GitHub profile](https://github.com/Hassanelsayed14).
+I combine QA discipline with a security mindset. You can see my security work on my GitHub profile.
 
----
+## What This Repository Shows
 
-## 🎯 What This Repository Shows
+- Analyzing requirements and deriving test scenarios
+- Writing detailed test cases (positive, negative, boundary, UI, usability)
+- Managing test cases with Jira + Zephyr Scale
+- Executing tests and writing clear defect reports
+- Testing web apps from different domains (travel booking, e-commerce, tools, UI)
 
-- Analyzing requirements and deriving **Test Scenarios**
-- Writing detailed **Test Cases** (positive, negative, boundary, UI, usability)
-- Managing test cases with **Jira + Zephyr Scale**
-- **Test Execution** and clear **Defect Reports**
-- Testing web apps from different domains (e-commerce, HR, tools, UI)
-
----
+## Projects
 
 | # | Project | Domain | Focus | Status |
 |---|---------|--------|-------|--------|
-| 1 | Gazara | Web app | Test case writing project | 🔄 In Progress |
-| 2 | Agileway | Demo web app | Test scenarios & cases | ⏳ Planned |
-| 3 | To Do List | Web app | Functional testing | ⏳ Planned |
-| 4 | Sweet Shop | E-commerce | Functional & UI | ⏳ Planned |
-| 5 | Coffee Cart | Ordering app | Cart & checkout flows | ⏳ Planned |
-| 6 | Parking Cost Calculator | Calculator | Boundary value & equivalence partitioning | ⏳ Planned |
-| 7 | PrestaShop | E-commerce | End-to-end shopping flows | ⏳ Planned |
-| 8 | User Interface | UI / UX | UI & usability testing | ⏳ Planned |
-| 9 | HR Management System | Enterprise app | Role-based functional testing | ⏳ Planned |
+| 1 | [Gazara](projects/gazara) | Web app | Test scenarios & test case writing | ✅ Completed |
+| 2 | Agileway | Travel booking demo app | Flight booking and credit card payment flows | ✅ Completed |
+| 3 | To Do List | Web app | Functional testing of task management | ✅ Completed |
+| 4 | [Coffee Cart](projects/coffee-cart) | Ordering app | Cart, discounts & checkout flows | ✅ Completed |
+| 5 | Parking Cost Calculator | Calculator | Boundary value analysis & equivalence partitioning | ✅ Completed |
+| 6 | PrestaShop | E-commerce | End-to-end shopping flows | ✅ Completed |
+| 7 | User Interface | UI / UX | UI & usability testing | ✅ Completed |
 
-_I'm adding one project at a time. Each project gets its own link here once its folder is published._
+I'm uploading the project folders one by one, so a link appears next to each project once its folder goes live.
 
----
+## Tools & Concepts
 
-## 🛠️ Tools & Concepts
+**Tools:** Jira · Zephyr Scale · Trello (defect tracking) · Excel / Google Sheets · Screenshots & screen recording · Browser DevTools
 
-**Tools:** Jira · Zephyr Scale · Excel / Google Sheets · Screenshots & screen recording · Browser DevTools
+**Concepts:** SDLC & STLC · Agile / Scrum · Test Scenario vs Test Case · Equivalence Partitioning · Boundary Value Analysis · Smoke / Sanity / Regression · Defect Life Cycle · Severity vs Priority · Defect Triage · Cross-browser testing (Chrome & Safari)
 
-**Concepts:** SDLC & STLC · Agile / Scrum · Test Scenario vs Test Case · Equivalence Partitioning · Boundary Value Analysis · Smoke / Sanity / Regression · Defect Life Cycle · Severity vs Priority · Defect Triage · Mobile App Testing basics
+## How I Document Each Project
 
----
+1. Understand the application and its requirements
+2. Write test scenarios
+3. Design detailed test cases (ID, steps, test data, expected result)
+4. Execute and record Pass / Fail
+5. Report defects with steps, evidence and severity
+6. Export test cases from Zephyr Scale (Excel/CSV) so they can be viewed here
 
-## 🧾 How I Document Each Project
+## Where to See the Test Cases
 
-1. **Understand** the application and its requirements
-2. **Write** test scenarios
-3. **Design** detailed test cases (ID, steps, test data, expected result)
-4. **Execute** and record Pass / Fail
-5. **Report** defects with steps, evidence and severity
-6. **Export** test cases from Zephyr Scale (Excel/CSV) so they can be viewed here
-
----
-
-## 👀 Where to See the Test Cases
-
-Test cases were managed in **Jira Zephyr Scale** (a private workspace), so for each project I include:
+Test cases were managed in Jira Zephyr Scale (a private workspace), so each project folder includes:
 
 - 📄 Test cases exported as `.xlsx` / `.csv`
-- 🖼️ Screenshots from Jira/Zephyr
+- 🖼️ Screenshots from Jira / Zephyr
 - 🐞 Bug reports in Markdown
-
-Open the project folder → `test-cases/`.
 
 ---
 
