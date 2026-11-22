@@ -66,10 +66,16 @@ These are illustrative screens that I used to visualize the requirements while w
 gazara/
 ├── README.md
 ├── requirements/
+│   └── Gazara grocery store 🥕.md
 ├── test-scenarios/
 │   └── gazara-test-scenarios.md
 ├── test-cases/
-│   └── gazara-test-cases.xlsx
+│   ├── 01-header-navigation-test-cases.xlsx
+│   ├── 02-home-page-test-cases.xlsx
+│   ├── 03-product-catalog-test-cases.xlsx
+│   ├── 04-authentication-test-cases.xlsx
+│   ├── 05-user-profile-test-cases.xlsx
+│   └── 06-cart-checkout-test-cases.xlsx
 └── mockups/
     ├── 01-home-page-header.png
     ├── 02-home-page-content.png
