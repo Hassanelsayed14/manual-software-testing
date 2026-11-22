@@ -33,24 +33,6 @@ _I'm adding one project at a time. Each project gets its own link here once its 
 
 ---
 
-## 📁 Repository Structure
-
-Each project will follow the same structure:
-
-```text
-manual-software-testing/
-├── README.md
-└── projects/
-    └── <project-name>/
-        ├── README.md
-        ├── test-scenarios/
-        ├── test-cases/
-        ├── bug-reports/
-        └── screenshots/
-```
-
----
-
 ## 🛠️ Tools & Concepts
 
 **Tools:** Jira · Zephyr Scale · Excel / Google Sheets · Screenshots & screen recording · Browser DevTools
