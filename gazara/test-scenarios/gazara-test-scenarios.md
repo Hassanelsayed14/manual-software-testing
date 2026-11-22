@@ -27,7 +27,6 @@ High-level test scenarios written from the functional requirements for each modu
 | 01-P7 | Verify that clicking "Contact" opens the Contact form popup/window |
 | 01-P8 | Verify that clicking "Find Us" opens a window showing store booth locations |
 | 01-P9 | Verify that typing in the search bar displays relevant item suggestions |
-| 01-P10 | Verify that searching with no matching keyword shows "No results found" (Negative) |
 
 ### Negative scenarios
 
