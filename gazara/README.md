@@ -8,8 +8,8 @@ Test design for **Gazara**, a grocery store website (vegetables, fruits and meat
 |---|---|
 | Requirements analyzed | 35 functional requirements (FR1 to FR35) |
 | Test scenarios | 99 across the 6 modules, tracked on a Trello board |
-| Test cases written | 80 (58 positive, 22 negative) |
-| Priority split | 49 High, 19 Normal, 12 Low |
+| Test cases written | 98 (66 positive, 32 negative) |
+| Priority split | 57 High, 28 Normal, 13 Low |
 | Modules | 6 (header, home, catalog, authentication, profile, cart & checkout) |
 | Tools | Jira, Zephyr Scale, Trello, Excel |
 
@@ -22,8 +22,8 @@ Test design for **Gazara**, a grocery store website (vegetables, fruits and meat
 | 03 | Product Catalog | FR10 to FR13 | 11 | 0 | 11 |
 | 04 | Authentication | FR14, FR15 | 10 | 14 | 24 |
 | 05 | User Profile | FR31 to FR35 | 11 | 3 | 14 |
-| 06 | Cart & Checkout | FR16 to FR23 | 14 | 3 | 17 |
-| | **Total** | | **58** | **22** | **80** |
+| 06 | Cart & Checkout | FR16 to FR29 | 22 | 13 | 35 |
+| | **Total** | | **66** | **32** | **98** |
 
 ## What the Test Cases Cover
 
@@ -32,7 +32,7 @@ Test design for **Gazara**, a grocery store website (vegetables, fruits and meat
 - **Sign-up validation:** required fields, alphabets-only names, email format, password rules (8+ characters, letters and numbers), sign-up with Google and Facebook
 - **Access control:** guest users cannot add to cart, view the cart, pay, or open the cart and payment pages by direct URL
 - **Profile:** orders list, "Buy Again", saved address (view, edit, add), personal information, logout
-- **Cart and checkout:** add-to-cart pop-up, cart page and order summary, delivery details form, delivery summary with edit, payment type selection, card details
+- **Cart and checkout:** add-to-cart pop-up, cart page and order summary, delivery details form, delivery summary with edit, payment type selection, card details and validation, placing an order, item quantity, removing items, item notes, promo codes
 
 Each test case has a Key (`GAZ-T1` and so on), a title, preconditions, priority, step-by-step actions with expected results, and a folder (module / Positive or Negative).
 
