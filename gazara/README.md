@@ -7,7 +7,7 @@ Test design for **Gazara**, a grocery store website (vegetables, fruits and meat
 | | |
 |---|---|
 | Requirements analyzed | 35 functional requirements (FR1 to FR35) |
-| Test scenarios | 99 across the 6 modules, tracked on a Trello board |
+| Test scenarios | 98 across the 6 modules, tracked on a Trello board |
 | Test cases written | 98 (66 positive, 32 negative) |
 | Priority split | 57 High, 28 Normal, 13 Low |
 | Modules | 6 (header, home, catalog, authentication, profile, cart & checkout) |
