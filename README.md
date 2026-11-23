@@ -1,6 +1,6 @@
 # Manual Software Testing Portfolio 🧪
 
-Hi, I'm **Hassan Elsayed**, a cybersecurity student with hands-on experience in manual QA and software testing. This repository contains the projects I completed during my Manual Software Testing training, from analyzing requirements to writing test scenarios and test cases, executing them, and reporting defects.
+Hi, I'm **Hassan Elsayed**, a cybersecurity student with hands-on experience in manual QA and software testing. This repository contains the projects I completed during my Manual Software Testing training. It shows two kinds of work: test design from written requirements, and defect reporting on live websites.
 
 I combine QA discipline with a security mindset. You can see my security work on my GitHub profile.
 
@@ -9,48 +9,61 @@ I combine QA discipline with a security mindset. You can see my security work on
 - Analyzing requirements and deriving test scenarios
 - Writing detailed test cases (positive, negative, boundary, UI, usability)
 - Managing test cases with Jira + Zephyr Scale
-- Executing tests and writing clear defect reports
-- Testing web apps from different domains (travel booking, e-commerce, tools, UI)
+- Exploratory testing of live websites and writing clear defect reports
+- Testing apps from different domains (travel booking, e-commerce, tools, UI)
 
 ## Projects
 
-| # | Project | Domain | Focus | Status |
-|---|---------|--------|-------|--------|
-| 1 | [Gazara](projects/gazara) | Web app | Test scenarios & test case writing | ✅ Completed |
-| 2 | [Agileway](projects/defect-reports/agileway) | Travel booking | Flight booking & payment | ✅ Completed |
-| 3 | [To Do List](projects/defect-reports/todo-list) | Web app | Task management | ✅ Completed |
-| 4 | [Coffee Cart](projects/defect-reports/coffee-cart) | Ordering app | Cart, discounts & checkout  | ✅ Completed |
-| 5 | [Parking Cost Calculator](projects/defect-reports/parking-calculator) | Calculator | Rates & input validation  | ✅ Completed |
-| 6 | [PrestaShop](projects/defect-reports/prestashop) | E-commerce | Sign-up & checkout flows | ✅ Completed |
-| 7 | [User Interface](projects/defect-reports/user-interface) | UI / UX | UI & usability | ✅ Completed |
+### Part 1: Test design from requirements
 
-I'm uploading the project folders one by one, so a link appears next to each project once its folder goes live.
+| Project | Domain | What I did | Deliverable | Status |
+|---------|--------|------------|-------------|--------|
+| [Gazara](gazara) | Grocery store web app | Analyzed 35 functional requirements, wrote test scenarios and test cases | 98 test scenarios and 98 test cases across 6 modules | ✅ Completed |
+
+Gazara is based on a requirements document only. There is no live application, so this project has test cases but no bug reports and no test execution.
+
+### Part 2: Defect reporting on live websites
+
+I explored each website, found problems, and wrote bug reports with steps, actual and expected results, severity, and screenshots.
+
+| # | Project | Domain | Focus | Deliverable | Status |
+|---|---------|--------|-------|-------------|--------|
+| 1 | [Agileway](defect-reports/agileway) | Travel booking | Flight booking & payment | 14 bug reports | ✅ Completed |
+| 2 | [To Do List](defect-reports/todo-list) | Web app | Task management | 4 bug reports | ✅ Completed |
+| 3 | [Coffee Cart](defect-reports/coffee-cart) | Ordering app | Cart, discounts & checkout | 3 bug reports | ✅ Completed |
+| 4 | [Parking Cost Calculator](defect-reports/parking-calculator) | Calculator | Rates & input validation | 4 bug reports | ✅ Completed |
+| 5 | [PrestaShop](defect-reports/prestashop) | E-commerce | Sign-up & checkout flows | 2 bug reports | ✅ Completed |
+| 6 | [User Interface](defect-reports/user-interface) | UI / UX | UI & usability | 9 bug reports | ✅ Completed |
+
+**Total: 36 bug reports across 6 websites.**
+
+I'm uploading the defect report folders one by one, so a link works once its folder goes live.
 
 ## Tools & Concepts
 
-**Tools:** Jira · Zephyr Scale · Trello (defect tracking) · Excel / Google Sheets · Screenshots & screen recording · Browser DevTools
+**Tools:** Jira · Zephyr Scale · Trello (defect tracking) · Excel / Google Sheets · Screenshots & screen recording
 
 **Concepts:** SDLC & STLC · Agile / Scrum · Test Scenario vs Test Case · Equivalence Partitioning · Boundary Value Analysis · Smoke / Sanity / Regression · Defect Life Cycle · Severity vs Priority · Defect Triage · Cross-browser testing (Chrome & Safari)
 
-## How I Document Each Project
+## How I Work
 
-1. Understand the application and its requirements
+**Test design (Part 1)**
+1. Read the requirements (SRS)
 2. Write test scenarios
 3. Design detailed test cases (ID, steps, test data, expected result)
-4. Execute and record Pass / Fail
-5. Report defects with steps, evidence and severity
-6. Export test cases from Zephyr Scale (Excel/CSV) so they can be viewed here
+4. Manage them in Jira + Zephyr Scale and export them (Excel)
 
-## Where to See the Test Cases
+**Defect reporting (Part 2)**
+1. Explore the website and look for problems
+2. Write a clear bug report (title, severity, steps, actual vs expected result)
+3. Add screenshots or a video as evidence
 
-Test cases were managed in Jira Zephyr Scale (a private workspace), so each project folder includes:
+## Where to See the Work
 
-- 📄 Test cases exported as `.xlsx` / `.csv`
-- 🖼️ Screenshots from Jira / Zephyr
-- 🐞 Bug reports in Markdown
+- **Gazara:** requirements, test scenarios, test cases exported from Zephyr Scale (`.xlsx`), and mockups
+- **Defect reports:** bug reports in Markdown with screenshots, one folder per website
 
 ---
-
 ## 📚 Articles
 
 I write about what I learn on DEV:
