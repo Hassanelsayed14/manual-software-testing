@@ -17,12 +17,12 @@ I combine QA discipline with a security mindset. You can see my security work on
 | # | Project | Domain | Focus | Status |
 |---|---------|--------|-------|--------|
 | 1 | [Gazara](projects/gazara) | Web app | Test scenarios & test case writing | ✅ Completed |
-| 2 | Agileway | Travel booking demo app | Flight booking and credit card payment flows | ✅ Completed |
-| 3 | To Do List | Web app | Functional testing of task management | ✅ Completed |
-| 4 | [Coffee Cart](projects/coffee-cart) | Ordering app | Cart, discounts & checkout flows | ✅ Completed |
-| 5 | Parking Cost Calculator | Calculator | Boundary value analysis & equivalence partitioning | ✅ Completed |
-| 6 | PrestaShop | E-commerce | End-to-end shopping flows | ✅ Completed |
-| 7 | User Interface | UI / UX | UI & usability testing | ✅ Completed |
+| 2 | [Agileway](projects/defect-reports/agileway) | Travel booking | Flight booking & payment | ✅ Completed |
+| 3 | [To Do List](projects/defect-reports/todo-list) | Web app | Task management | ✅ Completed |
+| 4 | [Coffee Cart](projects/defect-reports/coffee-cart) | Ordering app | Cart, discounts & checkout  | ✅ Completed |
+| 5 | [Parking Cost Calculator](projects/defect-reports/parking-calculator) | Calculator | Rates & input validation  | ✅ Completed |
+| 6 | [PrestaShop](projects/defect-reports/prestashop) | E-commerce | Sign-up & checkout flows | ✅ Completed |
+| 7 | [User Interface](projects/defect-reports/user-interface) | UI / UX | UI & usability | ✅ Completed |
 
 I'm uploading the project folders one by one, so a link appears next to each project once its folder goes live.
 
