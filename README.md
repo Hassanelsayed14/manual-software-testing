@@ -30,14 +30,12 @@ I explored each website, found problems, and wrote bug reports with steps, actua
 |---|---------|--------|-------|-------------|--------|
 | 1 | [Agileway](defect-reports/agileway) | Travel booking | Flight booking & payment | 14 bug reports | ✅ Completed |
 | 2 | [To Do List](defect-reports/todo-list) | Web app | Task management | 4 bug reports | ✅ Completed |
-| 3 | [Coffee Cart](defect-reports/coffee-cart) | Ordering app | Cart, discounts & checkout | 3 bug reports | ✅ Completed |
+| 3 | [Coffee Cart](defect-reports/coffee-cart) | Ordering app | Cart, discounts & checkout | 4 bug reports | ✅ Completed |
 | 4 | [Parking Cost Calculator](defect-reports/parking-calculator) | Calculator | Rates & input validation | 4 bug reports | ✅ Completed |
 | 5 | [PrestaShop](defect-reports/prestashop) | E-commerce | Sign-up & checkout flows | 2 bug reports | ✅ Completed |
-| 6 | [User Interface](defect-reports/user-interface) | UI / UX | UI & usability | 9 bug reports | ✅ Completed |
+| 6 | [User Interface](defect-reports/user-interface) | UI / UX | UI & usability | 8 bug reports | ✅ Completed |
 
 **Total: 36 bug reports across 6 websites.**
-
-I'm uploading the defect report folders one by one, so a link works once its folder goes live.
 
 ## Tools & Concepts
 
@@ -64,6 +62,7 @@ I'm uploading the defect report folders one by one, so a link works once its fol
 - **Defect reports:** bug reports in Markdown with screenshots, one folder per website
 
 ---
+
 ## 📚 Articles
 
 I write about what I learn on DEV:
