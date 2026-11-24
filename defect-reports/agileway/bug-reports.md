@@ -52,7 +52,9 @@ The fare shows "Fare (return to ):" and the flight summary shows "2026-01-01 to"
 **Expected Result:**  
 Origin and Destination must be required. The user should not continue until both are selected.
 
-**Evidence:** ![BUG-001](screenshots/bug-001.png)
+**Evidence:**
+
+![BUG-001](screenshots/bug-001.png)
 
 ---
 
@@ -73,7 +75,9 @@ The system accepts a flight from New York to New York and confirms the booking.
 **Expected Result:**  
 Origin and destination must be different cities. If they are the same, an error message should appear.
 
-**Evidence:** ![BUG-002](screenshots/bug-002.png)
+**Evidence:**
+
+![BUG-002](screenshots/bug-002.png)
 
 ---
 
@@ -94,7 +98,9 @@ The system accepts a return date that is before the departure date. The booking 
 **Expected Result:**  
 The return date must be on or after the departure date. If not, an error message should appear.
 
-**Evidence:** ![BUG-003](screenshots/bug-003.png)
+**Evidence:**
+
+![BUG-003](screenshots/bug-003.png)
 
 ---
 
@@ -115,7 +121,9 @@ All three flights are shown as checkboxes and are already checked. The system ac
 **Expected Result:**  
 Only one flight should be selectable (like radio buttons). No flight should be selected by default.
 
-**Evidence:** ![BUG-004](screenshots/bug-004.png)
+**Evidence:**
+
+![BUG-004](screenshots/bug-004.png)
 
 ---
 
@@ -136,7 +144,9 @@ The system goes to the next step and the booking is completed without any flight
 **Expected Result:**  
 The user must select a flight before continuing. The Continue button should be disabled, or an error message should appear.
 
-**Evidence:** ![BUG-005](screenshots/bug-005.png)
+**Evidence:**
+
+![BUG-005](screenshots/bug-005.png)
 
 ---
 
@@ -157,7 +167,9 @@ The system accepts an empty first name and completes the booking. The confirmati
 **Expected Result:**  
 First name must be required. An error message should appear and the user should not continue.
 
-**Evidence:** ![BUG-006](screenshots/bug-006.png)
+**Evidence:**
+
+![BUG-006](screenshots/bug-006.png)
 
 ---
 
@@ -178,7 +190,9 @@ The value is accepted and shown on the confirmation page.
 **Expected Result:**  
 Name fields should accept letters only.
 
-**Evidence:** ![BUG-007](screenshots/bug-007.png)
+**Evidence:**
+
+![BUG-007](screenshots/bug-007.png)
 
 ---
 
@@ -199,7 +213,9 @@ The payment is accepted and a booking number is created.
 **Expected Result:**  
 Card type must be required. An error message should appear if none is selected.
 
-**Evidence:** ![BUG-008](screenshots/bug-008.png)
+**Evidence:**
+
+![BUG-008](screenshots/bug-008.png)
 
 ---
 
@@ -221,7 +237,9 @@ The payment is accepted and a booking number is created.
 **Expected Result:**  
 Card holder's name must be required. An error message should appear and the payment should not go through.
 
-**Evidence:** ![BUG-009](screenshots/bug-009.png)
+**Evidence:**
+
+![BUG-009](screenshots/bug-009.png)
 
 ---
 
@@ -242,7 +260,9 @@ The payment is accepted and a booking number is created without any card number.
 **Expected Result:**  
 Card number must be required. An error message should appear and the payment should not go through.
 
-**Evidence:** ![BUG-010](screenshots/bug-010.png)
+**Evidence:**
+
+![BUG-010](screenshots/bug-010.png)
 
 ---
 
@@ -263,7 +283,9 @@ The payment succeeds even though the card has already expired.
 **Expected Result:**  
 An expired card should be rejected. An error message should appear.
 
-**Evidence:** ![BUG-011](screenshots/bug-011.png)
+**Evidence:**
+
+![BUG-011](screenshots/bug-011.png)
 
 ---
 
@@ -283,7 +305,9 @@ The last year in the list is 2029. You cannot choose 2030 or later.
 **Expected Result:**  
 The list should include more future years (for example the next 10 years).
 
-**Evidence:** ![BUG-012](screenshots/bug-012.png)
+**Evidence:**
+
+![BUG-012](screenshots/bug-012.png)
 
 ---
 
@@ -305,7 +329,9 @@ The flight number, time, and airline are missing.
 **Expected Result:**  
 The selected flight details (flight number, time, and airline) should be shown.
 
-**Evidence:** ![BUG-013](screenshots/bug-013.png)
+**Evidence:**
+
+![BUG-013](screenshots/bug-013.png)
 
 ---
 
@@ -326,4 +352,6 @@ There is no form to create an account.
 **Expected Result:**  
 There should be a registration form (name, username, password, etc.) with a submit button.
 
-**Evidence:** ![BUG-014](screenshots/bug-014.png)
+**Evidence:**
+
+![BUG-014](screenshots/bug-014.png)
