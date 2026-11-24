@@ -1,4 +1,3 @@
-
 # Bug Reports: Coffee Cart
 
 **URL:** https://coffee-cart.app/  
@@ -9,9 +8,9 @@
 
 | Severity | Count |
 |----------|-------|
-| High | 2 |
+| High | 3 |
 | Medium | 1 |
-| **Total** | **3** |
+| **Total** | **4** |
 
 ## Bug List
 
@@ -19,7 +18,8 @@
 |----|-----------|----------|
 | BUG-001 | Cart → Cart items are removed after reloading the page | Medium |
 | BUG-002 | Payment details → Thank-you message is shown but no payment link is received by email | High |
-| BUG-003 | Discounted Mocha → Discount stays after the qualifying items are removed | High |
+| BUG-003 | Discounted Mocha → Quantity can be increased beyond the offer limit | High |
+| BUG-004 | Discounted Mocha → Discount stays after the qualifying items are removed | High |
 
 ---
 
@@ -71,7 +71,30 @@ A payment link should be sent to the entered email address, as the form says: "W
 
 ---
 
-## BUG-003: Discounted Mocha → Discount stays after the qualifying items are removed
+## BUG-003: Discounted Mocha → Quantity can be increased beyond the offer limit
+
+| Severity | Type | Status |
+|----------|------|--------|
+| High | Functional | Open |
+
+**Steps to Reproduce**
+1. Add 3 items to the cart (Cappuccino, Espresso, Espresso Macchiato).
+2. On the offer "It's your lucky day! Get an extra cup of Mocha for $4.", click "Yes, of course!".
+3. Open the cart and click "+" next to "(Discounted) Mocha" several times.
+
+**Actual Result:**  
+The quantity of the discounted Mocha can be increased without a limit. For example: 15 cups at $4.00 each = $60.00, and the cart total is $101.00 with only 3 qualifying items.
+
+**Expected Result:**  
+Only one discounted Mocha should be allowed for the offer. Extra cups should not get the discount price.
+
+**Evidence:**
+
+![BUG-003 quantity 2](screenshots/bug-003.png)  
+
+---
+
+## BUG-004: Discounted Mocha → Discount stays after the qualifying items are removed
 
 | Severity | Type | Status |
 |----------|------|--------|
@@ -90,4 +113,4 @@ The discounted Mocha should be removed (or charged at the regular price) when th
 
 **Evidence:**
 
-![BUG-003 with 3 items](screenshots/bug-003.png)  
+![BUG-004 with 3 items](screenshots/bug-004.png)  
